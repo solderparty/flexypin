@@ -1,0 +1,28 @@
+(module FlexyPin_1x03_P1.27mm_R (layer F.Cu)
+  (fp_text reference REF** (at 0 -1.25) (layer F.SilkS) (effects (font (size 1 1) (thickness 0.15))))
+  (fp_text value FlexyPin_1x03_P1.27mm (at 0 3.84) (layer F.Fab) (effects (font (size 1 1) (thickness 0.15))))
+
+  (fp_line (start -1.55 3.14) (end -1.55 -0.60) (layer F.CrtYd) (width 0.10))
+  (fp_line (start 2.70 3.14) (end -1.55 3.14) (layer F.CrtYd) (width 0.10))
+  (fp_line (start 2.70 -0.60) (end 2.70 3.14) (layer F.CrtYd) (width 0.10))
+  (fp_line (start -1.55 -0.60) (end 2.70 -0.60) (layer F.CrtYd) (width 0.10))
+
+  (pad "" thru_hole custom (at 0 0.00) (size 0.30 0.30) (drill 0.60) (layers *.Cu *.Mask) (options (clearance outline) (anchor rect)) (primitives (gr_poly (pts (xy 0.35 0.45) (xy 0.35 -0.45) (xy -0.25 -0.45) (xy -0.60 0) (xy -0.25 0.45)) (width 0.00) (fill yes))))
+  (pad "" thru_hole oval (at 1.55 0.00) (size 2.00 0.95) (drill oval 1.70 0.65) (layers *.Cu *.Mask))
+  (pad 1 smd custom (at -0.90 0.00) (size 0.01 0.01) (layers F.Cu F.Mask) (options (clearance outline) (anchor rect)) (primitives (gr_poly (pts (xy 0 0) (xy 0.35 0.45) (xy -0.50 0.45) (xy -0.50 -0.45) (xy 0.35 -0.45)) (width 0.00) (fill yes))))
+  (pad 4 smd custom (at -0.90 0.00) (size 0.01 0.01) (layers B.Cu B.Mask) (options (clearance outline) (anchor rect)) (primitives (gr_poly (pts (xy 0 0) (xy 0.35 0.45) (xy -0.50 0.45) (xy -0.50 -0.45) (xy 0.35 -0.45)) (width 0.00) (fill yes))))
+  (model ${KIPRJMOD}/../3d/flexypin.step (offset (xyz 0 0.00 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
+
+  (pad "" thru_hole custom (at 0 1.27) (size 0.30 0.30) (drill 0.60) (layers *.Cu *.Mask) (options (clearance outline) (anchor rect)) (primitives (gr_poly (pts (xy 0.35 0.45) (xy 0.35 -0.45) (xy -0.25 -0.45) (xy -0.60 0) (xy -0.25 0.45)) (width 0.00) (fill yes))))
+  (pad "" thru_hole oval (at 1.55 1.27) (size 2.00 0.95) (drill oval 1.70 0.65) (layers *.Cu *.Mask))
+  (pad 2 smd custom (at -0.90 1.27) (size 0.01 0.01) (layers F.Cu F.Mask) (options (clearance outline) (anchor rect)) (primitives (gr_poly (pts (xy 0 0) (xy 0.35 0.45) (xy -0.50 0.45) (xy -0.50 -0.45) (xy 0.35 -0.45)) (width 0.00) (fill yes))))
+  (pad 5 smd custom (at -0.90 1.27) (size 0.01 0.01) (layers B.Cu B.Mask) (options (clearance outline) (anchor rect)) (primitives (gr_poly (pts (xy 0 0) (xy 0.35 0.45) (xy -0.50 0.45) (xy -0.50 -0.45) (xy 0.35 -0.45)) (width 0.00) (fill yes))))
+  (model ${KIPRJMOD}/../3d/flexypin.step (offset (xyz 0 -1.27 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
+
+  (pad "" thru_hole custom (at 0 2.54) (size 0.30 0.30) (drill 0.60) (layers *.Cu *.Mask) (options (clearance outline) (anchor rect)) (primitives (gr_poly (pts (xy 0.35 0.45) (xy 0.35 -0.45) (xy -0.25 -0.45) (xy -0.60 0) (xy -0.25 0.45)) (width 0.00) (fill yes))))
+  (pad "" thru_hole oval (at 1.55 2.54) (size 2.00 0.95) (drill oval 1.70 0.65) (layers *.Cu *.Mask))
+  (pad 3 smd custom (at -0.90 2.54) (size 0.01 0.01) (layers F.Cu F.Mask) (options (clearance outline) (anchor rect)) (primitives (gr_poly (pts (xy 0 0) (xy 0.35 0.45) (xy -0.50 0.45) (xy -0.50 -0.45) (xy 0.35 -0.45)) (width 0.00) (fill yes))))
+  (pad 6 smd custom (at -0.90 2.54) (size 0.01 0.01) (layers B.Cu B.Mask) (options (clearance outline) (anchor rect)) (primitives (gr_poly (pts (xy 0 0) (xy 0.35 0.45) (xy -0.50 0.45) (xy -0.50 -0.45) (xy 0.35 -0.45)) (width 0.00) (fill yes))))
+  (model ${KIPRJMOD}/../3d/flexypin.step (offset (xyz 0 -2.54 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
+
+)
